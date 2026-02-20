@@ -1,139 +1,192 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Christopher G. Brinton, PhD - ION Lab</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="./css/main.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Christopher G. Brinton, PhD - ION Lab</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=IBM+Plex+Mono:wght@400;500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./css/main.css">
 </head>
+
 <body>
-  <div class="bg-grid" aria-hidden="true"></div>
-  <header class="site-header container">
-    <a href="#" class="brand">
-      <span class="brand-text"><strong>C. Brinton - ION Lab</strong></span>
-    </a>
-    <nav aria-label="Main navigation">
-      <ul class="nav-list">
-        <li><a href="https://www.cbrinton.net/index.html">Home</a></li>
-        <li><a href="https://www.cbrinton.net/research.html">ION</a></li>
-        <li><a href="https://www.cbrinton.net/pubs.html">Publications</a></li>
-        <li><a href="https://www.cbrinton.net/teaching.html">Teaching</a></li>
-        <li><a href="https://www.cbrinton.net/book.html">PoN</a></li>
-        <li><a href="https://www.cbrinton.net/zoomi.html">Zoomi</a></li>
-        <li><a href="https://www.cbrinton.net/awards.html">Recognition</a></li>
-        <li><a href="https://www.cbrinton.net/interests.html">Other</a></li>
-      </ul>
-    </nav>
-  </header>
-  <main class="container">
-    <section class="hero">
-      <div class="hero-copy">
-        <h1>The Intelligence Optimization for Networks (ION) Lab.</h1>
-        <div class="prose">
-          <p><strong>The Intelligence Optimization for Networks (ION) Lab</strong> at Purdue University conducts research at the intersection of network science/optimization and machine learning.</p>
-          <p>This includes devising techniques for intelligence management in contemporary networked systems (i.e., networks for learning), and data-driven methodologies to optimize/defend how wireless networks operate (i.e., learning for networks).</p>
-          <p>ION produces methodologies spanning both communication network architectures (e.g., fog/edge computing, 5G/6G/NextG wireless, IoT) and certain social applications that run on top of these architectures (content delivery, online education, recommendation systems).</p>
-          <p>Most of our efforts include significant theoretical (e.g., convergence analysis) and experimental (e.g., evaluations on real-world datasets) components.</p>
-        </div>
-      </div>
-      <div class="hero-art" aria-hidden="true">
-        <div class="orbit orbit-a"></div>
-        <div class="orbit orbit-b"></div>
-        <div class="logo-shell">
-          <div style="font-size: 3rem; font-weight: bold; font-family: 'Space Grotesk', sans-serif;">ION</div>
-        </div>
-      </div>
-    </section>
+    <div class="bg-grid" aria-hidden="true"></div>
+    <header class="site-header container">
+        <a href="#" class="brand">
+            <span class="brand-text"><strong>C. Brinton - ION Lab</strong></span>
+        </a>
+        <nav aria-label="Main navigation">
+            <ul class="nav-list">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="teaching.html">Teaching</a></li>
+                <li><a href="people.html">People</a></li>
+                <li><a href="publications.html">Publications</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="container">
+        <section class="hero">
+            <div class="hero-copy">
+                <h1>The Intelligence Optimization for Networks (ION) Lab.</h1>
+                <div class="prose">
+                    <p><strong>The Intelligence Optimization for Networks (ION) Lab</strong> at Purdue University
+                        conducts research at the intersection of network science/optimization and machine learning.</p>
+                    <p>This includes devising techniques for intelligence management in contemporary networked systems
+                        (i.e., networks for learning), and data-driven methodologies to optimize/defend how wireless
+                        networks operate (i.e., learning for networks).</p>
+                    <p>ION produces methodologies spanning both communication network architectures (e.g., fog/edge
+                        computing, 5G/6G/NextG wireless, IoT) and certain social applications that run on top of these
+                        architectures (content delivery, online education, recommendation systems).</p>
+                    <p>Most of our efforts include significant theoretical (e.g., convergence analysis) and experimental
+                        (e.g., evaluations on real-world datasets) components.</p>
+                </div>
+            </div>
+            <div class="hero-art" aria-hidden="true">
+                <div class="orbit orbit-a"></div>
+                <div class="orbit orbit-b"></div>
+                <div class="logo-shell">
+                    <div style="font-size: 3rem; font-weight: bold; font-family: 'Space Grotesk', sans-serif;">ION</div>
+                </div>
+            </div>
+        </section>
 
-    <section class="section-grid">
-      <article class="panel">
-        <div class="panel-head"><h2>T1: Federated Learning in Heterogeneous Networks</h2></div>
-        <div class="prose">
-          <p>Federated learning has emerged as a popular technique for distributing the training of a machine learning model across a set of intelligent devices. In practice, these are often wireless edge/IoT devices, which are heterogeneous in their communication and computation resources, and tend to have diverse local dataset statistics.</p>
-          <p>Architecturally, we are considering how to migrate from the star topology of conventional federated learning to more distributed topologies that can manage these different dimensions of heterogeneity.</p>
-          <p><strong>Select/Recent Publications:</strong></p>
-          <ul>
-            <li><a href="https://arxiv.org/abs/2202.00280">Recycling Model Updates in Federated Learning: Are Gradient Subspaces Low-Rank?</a> (ICLR 2022)</li>
-            <li><a href="https://arxiv.org/abs/2202.02947">Parallel Successive Learning for Dynamic Distributed Model Training over Heterogeneous Wireless Networks.</a> (IEEE/ACM ToN 2023)</li>
-            <li><a href="https://arxiv.org/abs/2304.12422">Multi-Source to Multi-Target Decentralized Federated Domain Adaptation.</a> (IEEE TCCN 2024)</li>
-          </ul>
-        </div>
-      </article>
+        <section class="section-grid">
+            <article class="panel">
+                <div class="panel-head">
+                    <h2>T1: Federated Learning in Heterogeneous Networks</h2>
+                </div>
+                <div class="prose">
+                    <p>Federated learning has emerged as a popular technique for distributing the training of a machine
+                        learning model across a set of intelligent devices. In practice, these are often wireless
+                        edge/IoT devices, which are heterogeneous in their communication and computation resources, and
+                        tend to have diverse local dataset statistics.</p>
+                    <p>Architecturally, we are considering how to migrate from the star topology of conventional
+                        federated learning to more distributed topologies that can manage these different dimensions of
+                        heterogeneity.</p>
+                    <p><strong>Select/Recent Publications:</strong></p>
+                    <ul>
+                        <li><a href="https://arxiv.org/abs/2202.00280">Recycling Model Updates in Federated Learning:
+                                Are Gradient Subspaces Low-Rank?</a> (ICLR 2022)</li>
+                        <li><a href="https://arxiv.org/abs/2202.02947">Parallel Successive Learning for Dynamic
+                                Distributed Model Training over Heterogeneous Wireless Networks.</a> (IEEE/ACM ToN 2023)
+                        </li>
+                        <li><a href="https://arxiv.org/abs/2304.12422">Multi-Source to Multi-Target Decentralized
+                                Federated Domain Adaptation.</a> (IEEE TCCN 2024)</li>
+                    </ul>
+                </div>
+            </article>
 
-      <article class="panel">
-        <div class="panel-head"><h2>T2: Optimizing Model Learning over Fog Networks</h2></div>
-        <div class="prose">
-          <p>Fog computing has recently emerged as an architecture for distributing network data processing tasks across this cloud-to-things continuum. Machine learning tasks require careful consideration in fog computing, especially when coupled with the challenges mentioned in the previous thrust.</p>
-          <p>To address this, we have been developing fog learning, a new paradigm for intelligently distributing machine learning across fog networks while accounting for heterogeneity and scalability properties.</p>
-          <p><strong>Select/Recent Publications:</strong></p>
-          <ul>
-            <li><a href="https://arxiv.org/abs/2103.10481">Semi-Decentralized Federated Learning with Cooperative D2D Local Model Aggregations.</a> (IEEE JSAC 2021)</li>
-            <li><a href="https://arxiv.org/abs/2007.09511">Multi-Stage Hybrid Federated Learning over Large-Scale D2D-Enabled Fog Networks.</a> (IEEE/ACM ToN 2022)</li>
-            <li><a href="https://arxiv.org/abs/2304.12422">Cooperative Federated Learning over Ground-to-Satellite Integrated Networks.</a> (IEEE JSAC 2023)</li>
-          </ul>
-        </div>
-      </article>
+            <article class="panel">
+                <div class="panel-head">
+                    <h2>T2: Optimizing Model Learning over Fog Networks</h2>
+                </div>
+                <div class="prose">
+                    <p>Fog computing has recently emerged as an architecture for distributing network data processing
+                        tasks across this cloud-to-things continuum. Machine learning tasks require careful
+                        consideration in fog computing, especially when coupled with the challenges mentioned in the
+                        previous thrust.</p>
+                    <p>To address this, we have been developing fog learning, a new paradigm for intelligently
+                        distributing machine learning across fog networks while accounting for heterogeneity and
+                        scalability properties.</p>
+                    <p><strong>Select/Recent Publications:</strong></p>
+                    <ul>
+                        <li><a href="https://arxiv.org/abs/2103.10481">Semi-Decentralized Federated Learning with
+                                Cooperative D2D Local Model Aggregations.</a> (IEEE JSAC 2021)</li>
+                        <li><a href="https://arxiv.org/abs/2007.09511">Multi-Stage Hybrid Federated Learning over
+                                Large-Scale D2D-Enabled Fog Networks.</a> (IEEE/ACM ToN 2022)</li>
+                        <li><a href="https://arxiv.org/abs/2304.12422">Cooperative Federated Learning over
+                                Ground-to-Satellite Integrated Networks.</a> (IEEE JSAC 2023)</li>
+                    </ul>
+                </div>
+            </article>
 
-      <article class="panel">
-        <div class="panel-head"><h2>T3: Data-Driven Wireless Network Optimization</h2></div>
-        <div class="prose">
-          <p>The convergence of today's wireless communication protocols with intelligent user applications is generating a plethora of data about network operation. The availability of these measurements presents a novel opportunity to re-examine existing network protocols from a data-driven perspective.</p>
-          <p>In investigating different use-cases we have been pursuing a cross-layer wireless learning approach, where learning of physical and link-layer processes takes place across the network protocol stack.</p>
-          <p><strong>Select/Recent Publications:</strong></p>
-          <ul>
-            <li><a href="https://arxiv.org/abs/2112.01874">Learning-Based Adaptive IRS Control with Limited Feedback Codebooks.</a> (IEEE TWC 2022)</li>
-            <li><a href="https://arxiv.org/abs/2211.15365">Defending Adversarial Attacks on Deep Learning Based Power Allocation in Massive MIMO Using Denoising Autoencoders.</a> (IEEE TCCN 2023)</li>
-            <li><a href="https://arxiv.org/abs/2304.13178">Robust Non-Linear Feedback Coding via Power-Constrained Deep Learning.</a> (ICML 2023)</li>
-          </ul>
-        </div>
-      </article>
+            <article class="panel">
+                <div class="panel-head">
+                    <h2>T3: Data-Driven Wireless Network Optimization</h2>
+                </div>
+                <div class="prose">
+                    <p>The convergence of today's wireless communication protocols with intelligent user applications is
+                        generating a plethora of data about network operation. The availability of these measurements
+                        presents a novel opportunity to re-examine existing network protocols from a data-driven
+                        perspective.</p>
+                    <p>In investigating different use-cases we have been pursuing a cross-layer wireless learning
+                        approach, where learning of physical and link-layer processes takes place across the network
+                        protocol stack.</p>
+                    <p><strong>Select/Recent Publications:</strong></p>
+                    <ul>
+                        <li><a href="https://arxiv.org/abs/2112.01874">Learning-Based Adaptive IRS Control with Limited
+                                Feedback Codebooks.</a> (IEEE TWC 2022)</li>
+                        <li><a href="https://arxiv.org/abs/2211.15365">Defending Adversarial Attacks on Deep Learning
+                                Based Power Allocation in Massive MIMO Using Denoising Autoencoders.</a> (IEEE TCCN
+                            2023)</li>
+                        <li><a href="https://arxiv.org/abs/2304.13178">Robust Non-Linear Feedback Coding via
+                                Power-Constrained Deep Learning.</a> (ICML 2023)</li>
+                    </ul>
+                </div>
+            </article>
 
-      <article class="panel">
-        <div class="panel-head"><h2>T4: Social Learning Network Personalization</h2></div>
-        <div class="prose">
-          <p>Contemporary social and communication networks are innovating when and how human learning takes place. The fine-granular behavioral data generated as users interact with online content presents an opportunity to optimize human learning.</p>
-          <p>We are developing learner modeling and content optimization methodologies that account for the multi-modal nature of behavioral data to facilitate private and personalized learning analytics.</p>
-          <p><strong>Select/Recent Publications:</strong></p>
-          <ul>
-            <li><a href="https://www.cbrinton.net/SLNOpt_TON.pdf">On the Efficiency of Online Social Learning Networks.</a> (IEEE/ACM ToN 2018)</li>
-            <li><a href="https://arxiv.org/abs/2208.01182">Mitigating Biases in Student Performance Prediction via Attention-Based Personalized Federated Learning.</a> (CIKM 2022)</li>
-            <li><a href="https://arxiv.org/abs/2301.01606">Predicting Learning Interactions in Social Learning Networks.</a> (IEEE/ACM ToN 2023)</li>
-          </ul>
-        </div>
-      </article>
-    </section>
+            <article class="panel">
+                <div class="panel-head">
+                    <h2>T4: Social Learning Network Personalization</h2>
+                </div>
+                <div class="prose">
+                    <p>Contemporary social and communication networks are innovating when and how human learning takes
+                        place. The fine-granular behavioral data generated as users interact with online content
+                        presents an opportunity to optimize human learning.</p>
+                    <p>We are developing learner modeling and content optimization methodologies that account for the
+                        multi-modal nature of behavioral data to facilitate private and personalized learning analytics.
+                    </p>
+                    <p><strong>Select/Recent Publications:</strong></p>
+                    <ul>
+                        <li><a href="https://www.cbrinton.net/SLNOpt_TON.pdf">On the Efficiency of Online Social
+                                Learning Networks.</a> (IEEE/ACM ToN 2018)</li>
+                        <li><a href="https://arxiv.org/abs/2208.01182">Mitigating Biases in Student Performance
+                                Prediction via Attention-Based Personalized Federated Learning.</a> (CIKM 2022)</li>
+                        <li><a href="https://arxiv.org/abs/2301.01606">Predicting Learning Interactions in Social
+                                Learning Networks.</a> (IEEE/ACM ToN 2023)</li>
+                    </ul>
+                </div>
+            </article>
+        </section>
 
-    <section class="panel" style="margin-top: 2rem;">
-      <div class="panel-head"><h2>Current Personnel</h2></div>
-      <div class="prose" style="column-count: 2; column-gap: 2rem;">
-        <h4>Postdoctoral Research Associates</h4>
-        <ul>
-          <li>Sunjung Kang</li>
-          <li>Mehdi Karbalayghareh</li>
-          <li>Kamran Shisher</li>
-          <li>Ziqiao Zhang</li>
-        </ul>
-        <h4>PhD Students</h4>
-        <ul>
-          <li>Shams Azam, Evan Chen, Zhan-Lun Chang, Shengli Ding, Tom Fang, Surojit Ganguli, Guangchen Lan, Xiaoyan Ma, David Nickel, Adam Piaseczny, Abhishek Rajasekaran, Satyavrat Wagle, Liangqi Yuan, Shahryar Zehtabi, Jianing Zhang, Yinan Zhou</li>
-        </ul>
-        <h4>Masters Students</h4>
-        <ul>
-          <li>Rebecca Horwatt, Joseph Lee, George Ziavras</li>
-        </ul>
-        <h4>Undergraduate Student Researchers</h4>
-        <ul>
-          <li>Kareem Olama, Juanes Vargas</li>
-        </ul>
-      </div>
-    </section>
+        <section class="panel" style="margin-top: 2rem;">
+            <div class="panel-head">
+                <h2>Current Personnel</h2>
+            </div>
+            <div class="prose" style="column-count: 2; column-gap: 2rem;">
+                <h4>Postdoctoral Research Associates</h4>
+                <ul>
+                    <li>Sunjung Kang</li>
+                    <li>Mehdi Karbalayghareh</li>
+                    <li>Kamran Shisher</li>
+                    <li>Ziqiao Zhang</li>
+                </ul>
+                <h4>PhD Students</h4>
+                <ul>
+                    <li>Shams Azam, Evan Chen, Zhan-Lun Chang, Shengli Ding, Tom Fang, Surojit Ganguli, Guangchen Lan,
+                        Xiaoyan Ma, David Nickel, Adam Piaseczny, Abhishek Rajasekaran, Satyavrat Wagle, Liangqi Yuan,
+                        Shahryar Zehtabi, Jianing Zhang, Yinan Zhou</li>
+                </ul>
+                <h4>Masters Students</h4>
+                <ul>
+                    <li>Rebecca Horwatt, Joseph Lee, George Ziavras</li>
+                </ul>
+                <h4>Undergraduate Student Researchers</h4>
+                <ul>
+                    <li>Kareem Olama, Juanes Vargas</li>
+                </ul>
+            </div>
+        </section>
 
-  </main>
-  <footer class="site-footer container">
-    <p>&copy; 2026 ION Lab. Content generated based on Christopher G. Brinton's research page.</p>
-  </footer>
+    </main>
+    <footer class="site-footer container">
+        <p>&copy; 2026 ION Lab. Content generated based on Christopher G. Brinton's research page.</p>
+    </footer>
 </body>
+
 </html>
