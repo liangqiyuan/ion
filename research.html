@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Research - ION Lab</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=IBM+Plex+Mono:wght@400;500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./css/main.css">
+    <style>
+        .thrust-image {
+            float: right;
+            margin-left: 2rem;
+            margin-bottom: 1rem;
+            border: 4px solid var(--surface-1);
+            max-width: 100%;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="bg-grid" aria-hidden="true"></div>
+    <header class="site-header container">
+        <a href="index.html" class="brand">
+            <span class="brand-text"><strong>C. Brinton - ION Lab</strong></span>
+        </a>
+        <nav aria-label="Main navigation">
+            <ul class="nav-list">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="research.html">Research</a></li>
+                <li><a href="people.html">People</a></li>
+                <li><a href="publications.html">Publications</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="container">
+        <section class="hero" style="min-height: 20vh; display: flex; align-items: center; padding-top: 2rem;">
+            <div class="hero-copy">
+                <h1>Research Thrusts</h1>
+                <div class="prose">
+                    <p>Key research thrusts of the Intelligence Optimization for Networks (ION) lab.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-grid" style="display: block;">
+            <article class="panel" style="margin-bottom: 2rem;">
+                <div class="panel-head">
+                    <h2>T1: Federated Learning in Heterogeneous Networks</h2>
+                </div>
+                <div class="prose">
+                    <img src="images/Nx175xphoto_flh.png.pagespeed.ic.UwJO5jHksm.png" alt="T1" class="thrust-image">
+                    <p>Federated learning has emerged as a popular technique for distributing the training of a machine
+                        learning model across a set of intelligent devices. In practice, these are often wireless
+                        edge/IoT devices, which are heterogeneous in their communication and computation resources, and
+                        tend to have diverse local dataset statistics.</p>
+                    <p>Architecturally, we are considering how to migrate from the star topology of conventional
+                        federated learning to more distributed topologies that can manage these different dimensions of
+                        heterogeneity.</p>
+                    <p><strong>Select/Recent Publications:</strong></p>
+                    <ul>
+                        <li><a href="https://arxiv.org/abs/2202.00280">Recycling Model Updates in Federated Learning:
+                                Are Gradient Subspaces Low-Rank?</a> (ICLR 2022)</li>
+                        <li><a href="https://arxiv.org/abs/2202.02947">Parallel Successive Learning for Dynamic
+                                Distributed Model Training over Heterogeneous Wireless Networks.</a> (IEEE/ACM ToN 2023)
+                        </li>
+                        <li><a href="https://arxiv.org/abs/2304.12422">Multi-Source to Multi-Target Decentralized
+                                Federated Domain Adaptation.</a> (IEEE TCCN 2024)</li>
+                    </ul>
+                </div>
+            </article>
+
+            <article class="panel" style="margin-bottom: 2rem;">
+                <div class="panel-head">
+                    <h2>T2: Optimizing Model Learning over Fog Networks</h2>
+                </div>
+                <div class="prose">
+                    <img src="images/Nx225xphoto_oml.png.pagespeed.ic.aG4BjRiCfd.png" alt="T2" class="thrust-image">
+                    <p>Fog computing has recently emerged as an architecture for distributing network data processing
+                        tasks across this cloud-to-things continuum. Machine learning tasks require careful
+                        consideration in fog computing, especially when coupled with the challenges mentioned in the
+                        previous thrust.</p>
+                    <p>To address this, we have been developing fog learning, a new paradigm for intelligently
+                        distributing machine learning across fog networks while accounting for heterogeneity and
+                        scalability properties.</p>
+                    <p><strong>Select/Recent Publications:</strong></p>
+                    <ul>
+                        <li><a href="https://arxiv.org/abs/2103.10481">Semi-Decentralized Federated Learning with
+                                Cooperative D2D Local Model Aggregations.</a> (IEEE JSAC 2021)</li>
+                        <li><a href="https://arxiv.org/abs/2007.09511">Multi-Stage Hybrid Federated Learning over
+                                Large-Scale D2D-Enabled Fog Networks.</a> (IEEE/ACM ToN 2022)</li>
+                        <li><a href="https://arxiv.org/abs/2304.12422">Cooperative Federated Learning over
+                                Ground-to-Satellite Integrated Networks.</a> (IEEE JSAC 2023)</li>
+                    </ul>
+                </div>
+            </article>
+
+            <article class="panel" style="margin-bottom: 2rem;">
+                <div class="panel-head">
+                    <h2>T3: Data-Driven Wireless Network Optimization</h2>
+                </div>
+                <div class="prose">
+                    <img src="images/Nx275xphoto_dwn.png.pagespeed.ic.NUrj6e4rWc.png" alt="T3" class="thrust-image">
+                    <p>The convergence of today's wireless communication protocols with intelligent user applications is
+                        generating a plethora of data about network operation. The availability of these measurements
+                        presents a novel opportunity to re-examine existing network protocols from a data-driven
+                        perspective.</p>
+                    <p>In investigating different use-cases we have been pursuing a cross-layer wireless learning
+                        approach, where learning of physical and link-layer processes takes place across the network
+                        protocol stack.</p>
+                    <p><strong>Select/Recent Publications:</strong></p>
+                    <ul>
+                        <li><a href="https://arxiv.org/abs/2112.01874">Learning-Based Adaptive IRS Control with Limited
+                                Feedback Codebooks.</a> (IEEE TWC 2022)</li>
+                        <li><a href="https://arxiv.org/abs/2211.15365">Defending Adversarial Attacks on Deep Learning
+                                Based Power Allocation in Massive MIMO Using Denoising Autoencoders.</a> (IEEE TCCN
+                            2023)</li>
+                        <li><a href="https://arxiv.org/abs/2304.13178">Robust Non-Linear Feedback Coding via
+                                Power-Constrained Deep Learning.</a> (ICML 2023)</li>
+                    </ul>
+                </div>
+            </article>
+
+            <article class="panel">
+                <div class="panel-head">
+                    <h2>T4: Social Learning Network Personalization</h2>
+                </div>
+                <div class="prose">
+                    <img src="images/Nx250xphoto_sln.png.pagespeed.ic.FrVtJRZ38Q.png" alt="T4" class="thrust-image">
+                    <p>Contemporary social and communication networks are innovating when and how human learning takes
+                        place. The fine-granular behavioral data generated as users interact with online content
+                        presents an opportunity to optimize human learning.</p>
+                    <p>We are developing learner modeling and content optimization methodologies that account for the
+                        multi-modal nature of behavioral data to facilitate private and personalized learning analytics.
+                    </p>
+                    <p><strong>Select/Recent Publications:</strong></p>
+                    <ul>
+                        <li><a href="https://www.cbrinton.net/SLNOpt_TON.pdf">On the Efficiency of Online Social
+                                Learning Networks.</a> (IEEE/ACM ToN 2018)</li>
+                        <li><a href="https://arxiv.org/abs/2208.01182">Mitigating Biases in Student Performance
+                                Prediction via Attention-Based Personalized Federated Learning.</a> (CIKM 2022)</li>
+                        <li><a href="https://arxiv.org/abs/2301.01606">Predicting Learning Interactions in Social
+                                Learning Networks.</a> (IEEE/ACM ToN 2023)</li>
+                    </ul>
+                </div>
+            </article>
+        </section>
+    </main>
+    <footer class="site-footer container">
+        <p>&copy; 2026 ION Lab. Content generated based on Christopher G. Brinton's research page.</p>
+    </footer>
+</body>
+
+</html>
